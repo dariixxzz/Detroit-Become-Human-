@@ -1,6 +1,6 @@
 #  Detroit: Become Human 
 
- **[Подивитися сайт](https://f0kke1.github.io/half-life-2-website/)**
+ **[Подивитися сайт](https://github.com/dariixxzz/Detroit-Become-Human-.git)**
 
 
 ##  Технічна складова та архітектура
