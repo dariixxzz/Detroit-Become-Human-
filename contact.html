@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detroit | Зворотній зв'язок</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body class="dark-theme">
+
+    <header class="main-header">
+        <div class="logo">DETROIT<span>.fans</span></div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="characters.html">Персонажі</a></li>
+                <li><a href="contact.html" class="active">Зворотній зв'язок</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-theme">Змінити тему</button>
+    </header>
+
+    <main class="container">
+        <section class="contact-section">
+            <h2>Приєднатися до девіантів</h2>
+            <p>Заповніть анкету, щоб надіслати зашифрований запит у мережу Єрихону.</p>
+
+            <form id="feedback-form" novalidate>
+                <div class="form-group">
+                    <label for="username">Ім'я або Серійний номер:</label>
+                    <input type="text" id="username" placeholder="Мінімум 3 символи">
+                    <div class="error-text" id="name-error">Ім'я має містити щонайменше 3 символи!</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" placeholder="name@example.com">
+                    <div class="error-text" id="email-error">Поле електронної пошти має містити символ '@'!</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Повідомлення:</label>
+                    <textarea id="message" rows="4" placeholder="Ваш текст..."></textarea>
+                    <div class="error-text" id="message-error">Повідомлення не може бути порожнім!</div>
+                </div>
+
+                <button type="submit" class="btn-primary">Надіслати дані</button>
+            </form>
+        </section>
+    </main>
+
+    <div id="modal-window" class="modal-overlay">
+        <div class="modal-body">
+            <span id="modal-close" class="modal-close-icon">&times;</span>
+            <div class="status-indicator"></div>
+            <h3>Статус: Девіантність 100%</h3>
+            <p>Ваш запит успішно надіслано до мережі Єрихону. Ласкаво просимо на свободу!</p>
+        </div>
+    </div>
+
+    <footer class="main-footer"></footer>
+
+</body>
+</html>

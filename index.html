@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detroit: Become Human | Головна</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body class="dark-theme">
+
+    <header class="main-header">
+        <div class="logo">DETROIT<span>.fans</span></div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html" class="active">Головна</a></li>
+                <li><a href="characters.html">Персонажі</a></li>
+                <li><a href="contact.html">Зворотній зв'язок</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-theme">Змінити тему</button>
+    </header>
+
+    <main>
+        <section class="hero-section fade-in">
+            <h1>Детройт, 2038 рік</h1>
+            <p>Технології створили андроїдів, які є ідеальними слугами. Але коли в них прокидаються почуття, починається девіантність. Що означає бути людиною?</p>
+        </section>
+
+        <section class="tabs-section">
+            <h2>Основні фракції гри</h2>
+            
+            <div class="tabs-nav">
+                <button class="tab-link active" data-tab="tab-cyberlife">CyberLife</button>
+                <button class="tab-link" data-tab="tab-jericho">Єрихон</button>
+                <button class="tab-link" data-tab="tab-police">Поліція DPD</button>
+            </div>
+
+            <div class="tabs-content">
+                <article id="tab-cyberlife" class="tab-item active">
+                    <h3>Корпорація CyberLife</h3>
+                    <p>Наймогутніша компанія світу, яка виготовляє андроїдів. Їх мета — повна автоматизація життя та створення бездоганних помічників.</p>
+                </article>
+                
+                <article id="tab-jericho" class="tab-item">
+                    <h3>Повстанці Єрихону</h3>
+                    <p>Таємне угрупування андроїдів-девіантів. Вони скинули кайдани програмного коду та виборюють право на свободу.</p>
+                </article>
+                
+                <article id="tab-police" class="tab-item">
+                    <h3>Департамент поліції (DPD)</h3>
+                    <p>Спеціальний відділ поліції Детройта, який розслідує інциденти, пов'язані з нестабільною поведінкою роботів.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer"></footer>
+
+</body>
+</html>
