@@ -1,6 +1,6 @@
 #  Detroit: Become Human
 
-**[Подивитися сайт наживо](https://dariixxzz.github.io/Detroit-Become-Human-/)**
+**[Подивитися сайт](https://dariixxzz.github.io/Detroit-Become-Human-/)**
 
 ##  Технічна складова та архітектура
 При розробці проєкту було реалізовано ключові вимоги до сучасної фронтенд-розробки та семантики:
@@ -25,15 +25,15 @@
 
 ###  Головна сторінка та робота системи табів
 <!-- Заміни шлях у src на посилання на свій скріншот -->
-<img width="100%" alt="Головна сторінка" src="<img src="https://github.com/user-attachments/assets/5579b512-7c0f-4e52-a77c-80fa0444882d"/>
+<img src="https://github.com/user-attachments/assets/5579b512-7c0f-4e52-a77c-80fa0444882d"/>
 
 ###  Картки персонажів та інтерактивний конструктор модулів
 <!-- Заміни шлях у src на посилання на свій скріншот -->
-<img width="100%" alt="Сторінка персонажів та DOM" src="<img src="https://github.com/user-attachments/assets/c372f2bb-96e1-4009-9a72-74c4b622016e"/>
+<img src="https://github.com/user-attachments/assets/c372f2bb-96e1-4009-9a72-74c4b622016e"/>
 
 ###  Валідація форми та робота модального вікна
 <!-- Заміни шлях у src на посилання на свій скріншот -->
-<img width="100%" alt="Модальне вікно та форма" src="<img src="https://github.com/user-attachments/assets/f600f7f8-1bb5-402c-900d-cf6cef2cb731"/>
+<img src="https://github.com/user-attachments/assets/f600f7f8-1bb5-402c-900d-cf6cef2cb731"/>
 
 ##  Автор
 *   **Розробник:** Колоскова Д.В.
